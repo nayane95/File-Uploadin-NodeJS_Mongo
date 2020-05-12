@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<form action="/uploadFile" enctype="multipart/form-data" method="POST">
+    <input type="file" name="myFile">
+    <input type="submit" value="Upload Your File">
+</form>
+<br><br>
+<form action="/uploadmultiple" enctype="multipart/form-data" method="POST">
+    <input type="file" name="myFiles" multiple>
+    <input type="submit" value="Upload Your Files">
+</form>
+<br><br>
+
+<form action="/uploadphoto" enctype="multipart/form-data" method="POST">
+    <input type="file" name="myImage" accept="image/*">
+    <input type="submit" value="Upload Photo">
+</form>
+<br><br>
+
+</html>
